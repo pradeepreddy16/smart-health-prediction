@@ -113,13 +113,21 @@ export default function MapViewer({ specialty, riskLevel }) {
               <p className="text-xs text-slate-400 leading-relaxed">{t('gps.consent_desc')}</p>
             </div>
           </div>
-          <div className="mt-5 flex items-center justify-end space-x-3">
+          <div className="mt-5 flex flex-wrap items-center justify-end gap-3">
             <button
               onClick={() => { setGpsConsent(false); setError('Please enter city manually.'); }}
               className="text-xs font-semibold text-slate-400 hover:text-white transition-colors px-3 py-2"
             >
               {t('gps.deny_btn')}
             </button>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=hospitals+near+me"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs font-semibold text-emerald-500 hover:text-emerald-400 transition-colors px-3 py-2 flex items-center space-x-1"
+            >
+              <span>Search on Google Maps</span>
+            </a>
             <button
               onClick={handleRequestGPS}
               className="bg-medical-600 hover:bg-medical-500 text-white text-xs font-semibold px-4.5 py-2.5 rounded-xl transition-colors shadow-lg shadow-medical-500/20"
@@ -132,25 +140,43 @@ export default function MapViewer({ specialty, riskLevel }) {
 
       {/* 2. Manual Fallback Input Form */}
       {!gpsConsent && !locationGranted && (
-        <form onSubmit={handleManualSearch} className="bg-slate-900 border border-slate-800 rounded-2xl p-4.5 flex items-center space-x-3 shadow-lg">
-          <div className="flex-1 relative">
-            <MapPin className="absolute left-3.5 top-3.5 h-4.5 w-4.5 text-slate-500" />
-            <input
-              type="text"
-              value={manualCity}
-              onChange={(e) => setManualCity(e.target.value)}
-              placeholder={t('gps.placeholder_city')}
-              className="w-full bg-slate-950 border border-slate-700 rounded-xl pl-10 pr-4 py-3 text-sm text-slate-200 outline-none focus:border-medical-500 transition-colors"
-            />
+        <div className="space-y-3.5">
+          <form onSubmit={handleManualSearch} className="bg-slate-900 border border-slate-800 rounded-2xl p-4.5 flex items-center space-x-3 shadow-lg">
+            <div className="flex-1 relative">
+              <MapPin className="absolute left-3.5 top-3.5 h-4.5 w-4.5 text-slate-500" />
+              <input
+                type="text"
+                value={manualCity}
+                onChange={(e) => setManualCity(e.target.value)}
+                placeholder={t('gps.placeholder_city')}
+                className="w-full bg-slate-950 border border-slate-700 rounded-xl pl-10 pr-4 py-3 text-sm text-slate-200 outline-none focus:border-medical-500 transition-colors"
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={loading}
+              className="bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white px-5 py-3 rounded-xl text-sm font-semibold transition-colors disabled:opacity-50"
+            >
+              {loading ? 'Searching...' : t('gps.find_btn')}
+            </button>
+          </form>
+          <div className="flex items-center justify-center space-x-2 text-xs">
+            <span className="text-slate-500">or</span>
+            <a
+              href={
+                manualCity
+                  ? `https://www.google.com/maps/search/hospitals+in+${encodeURIComponent(manualCity)}`
+                  : "https://www.google.com/maps/search/?api=1&query=hospitals+near+me"
+              }
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center space-x-1 text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
+            >
+              <span>Search "hospitals" on Google Maps</span>
+              <Navigation className="h-3 w-3 fill-current rotate-45" />
+            </a>
           </div>
-          <button
-            type="submit"
-            disabled={loading}
-            className="bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white px-5 py-3 rounded-xl text-sm font-semibold transition-colors disabled:opacity-50"
-          >
-            {loading ? 'Searching...' : t('gps.find_btn')}
-          </button>
-        </form>
+        </div>
       )}
 
       {/* Error state */}
@@ -290,6 +316,32 @@ export default function MapViewer({ specialty, riskLevel }) {
                 </button>
               </div>
             )}
+
+            {/* Google Maps Live Recommendation Option */}
+            <div className="p-4 bg-slate-900/60 border border-dashed border-slate-800 hover:border-slate-700 rounded-2xl flex flex-col space-y-2.5 transition-all">
+              <div className="flex items-center space-x-2 text-xs font-semibold text-emerald-400">
+                <MapPin className="h-4 w-4 text-emerald-500 animate-pulse" />
+                <span>Search Live Google Maps</span>
+              </div>
+              <p className="text-[11px] text-slate-400 leading-relaxed">
+                Need more options? You can look up live local hospital listings, reviews, and working hours directly on Google Maps.
+              </p>
+              <a
+                href={
+                  coords
+                    ? `https://www.google.com/maps/search/hospitals/@${coords.lat},${coords.lng},14z`
+                    : manualCity
+                    ? `https://www.google.com/maps/search/hospitals+in+${encodeURIComponent(manualCity)}`
+                    : "https://www.google.com/maps/search/?api=1&query=hospitals+near+me"
+                }
+                target="_blank"
+                rel="noreferrer"
+                className="w-full bg-emerald-600/90 hover:bg-emerald-500 text-white rounded-xl py-2.5 text-xs font-semibold text-center transition-colors shadow flex items-center justify-center space-x-1.5"
+              >
+                <span>Find Nearby Hospitals</span>
+                <Navigation className="h-3 w-3 fill-current rotate-45" />
+              </a>
+            </div>
 
           </div>
 
