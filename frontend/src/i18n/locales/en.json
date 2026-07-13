@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "Smart Health Predictor",
+    "disclaimer": "This is an AI-generated estimate, not a medical diagnosis. Please consult a certified doctor.",
+    "emergency_sos": "EMERGENCY SOS: Call 108 immediately. Do not self-drive if experiencing severe chest pain, fainting, or bleeding.",
+    "consult_disclaimer": "Always consult a doctor before starting any supplements. Dosages must be prescribed by a healthcare provider."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "predict": "Risk Predictor",
+    "history": "Report History",
+    "telemedicine": "Telemedicine",
+    "admin": "Admin Panel",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "login": {
+    "title": "Welcome to Smart Health Predictor",
+    "subtitle": "AI-Powered Multilingual Health Risk Assessment",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Sign In",
+    "user_btn": "User Access",
+    "admin_btn": "Admin Access",
+    "error": "Invalid email or password",
+    "no_account": "Don't have an account? Sign up"
+  },
+  "signup": {
+    "title": "Create Your Account",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Sign Up",
+    "have_account": "Already have an account? Sign In"
+  },
+  "badges": {
+    "biomarkers": "138 Biomarkers Analysed",
+    "indices": "17 Peer-Reviewed Indices",
+    "delivery": "24-Hour Report Delivery",
+    "labs": "All Southern Labs Supported"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "new_prediction": "Run New Health Assessment",
+    "recent_reports": "Your Health Reports",
+    "no_reports": "No health assessments run yet.",
+    "view_report": "View Full Report",
+    "vitals_summary": "Vitals Trend Tracker",
+    "blood_pressure": "Blood Pressure",
+    "blood_sugar": "Blood Sugar",
+    "weight": "Weight (kg)",
+    "bmi": "BMI"
+  },
+  "predict_form": {
+    "title": "Health Parameter Intake Form",
+    "age": "Age (Years)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "systolic": "Systolic BP (mmHg)",
+    "diastolic": "Diastolic BP (mmHg)",
+    "sugar": "Fasting Blood Sugar (mg/dL)",
+    "temperature": "Body Temperature (°F)",
+    "weight": "Weight (kg)",
+    "height": "Height (cm)",
+    "medical_history": "Medical History / Chronic Conditions",
+    "symptoms": "Select Symptoms",
+    "symptoms_placeholder": "Select all symptoms that apply...",
+    "free_text": "Describe other symptoms or concerns",
+    "submitting": "Processing symptoms and vitals...",
+    "submit": "Generate Health Risk Assessment"
+  },
+  "report": {
+    "title": "Health Risk Assessment Report",
+    "generated_on": "Generated on",
+    "patient_summary": "Patient Summary",
+    "panels": "{{count}} Panels",
+    "optimal": "OPTIMAL",
+    "good": "GOOD",
+    "caution": "CAUTION",
+    "at_risk": "AT RISK",
+    "tabs": {
+      "organs": "Organs",
+      "risks": "Risk Indices",
+      "bio_age": "Bio Age",
+      "supplements": "Supplements",
+      "exercise": "Exercise",
+      "syndromes": "Syndromes"
+    },
+    "stats": {
+      "biomarkers": "Biomarkers Analysed",
+      "biomarkers_val": "138",
+      "indices": "Clinical Risk Indices",
+      "indices_val": "17",
+      "organs": "Organ Systems Scored",
+      "organs_val": "12",
+      "report_pages": "Page Report",
+      "report_pages_val": "40+"
+    },
+    "find_doctor": "Find a Doctor for This",
+    "find_doctor_general": "Find Nearby Specialist / Hospital",
+    "whats_app_support": "Chat with Support",
+    "risk_indices_text": "Evaluating 17 clinical risk indices based on your physiological biomarkers, vitals trends, and symptom duration. Scores indicate statistical percentile correlations relative to age-matched cohorts.",
+    "bio_age_text": "Your Biological Age estimate is computed from a metabolic profile (blood sugar stability, renal filtration, thyroid panel, and cardiovascular elasticity metrics).",
+    "syndromes_text": "Screening for metabolic and systemic syndromes (e.g. Metabolic Syndrome, Prediabetic Syndrome, Cardiovascular strain) based on criteria defined by regional health standards."
+  },
+  "organs": {
+    "heart": "Heart (Cardiovascular)",
+    "liver": "Liver System",
+    "kidney": "Kidney Function",
+    "thyroid": "Thyroid Balance",
+    "metabolic": "Metabolic Status",
+    "blood": "Blood Maintenance"
+  },
+  "foods": {
+    "heart": "Oats, leafy greens, garlic, flaxseed, fatty fish, walnuts. Limit salt & processed foods.",
+    "liver": "Leafy greens, beetroot, turmeric, citrus fruits, green tea. Avoid alcohol.",
+    "kidney": "Reduce sodium & potassium-heavy foods (bananas, tomatoes), stay hydrated, limit processed meat.",
+    "thyroid": "Iodine-rich foods, selenium sources (Brazil nuts), avoid excess soy/raw cruciferous vegetables.",
+    "metabolic": "Low glycemic index foods, whole grains, finger millet (ragi), moringa (drumstick leaves), curry leaves, fiber-rich vegetables.",
+    "blood": "Iron-rich foods (spinach, lentils) + Vitamin C for absorption, folate sources."
+  },
+  "exercises": {
+    "heart": "Brisk walking 30 min/day, swimming, cycling — avoid heavy strength training without clearance.",
+    "liver": "Moderate cardio (walking, cycling) 20–30 min/day.",
+    "kidney": "Light-to-moderate activity (walking, yoga) — avoid high-protein diet + intense exercise combo.",
+    "thyroid": "Moderate aerobic + strength training, yoga for stress regulation.",
+    "metabolic": "150 min/week moderate cardio + 2x/week strength training to improve insulin sensitivity.",
+    "blood": "General fitness routine is fine. No specific exercise restrictions."
+  },
+  "supplements": {
+    "heart": "Omega-3 (fish oil), CoQ10.",
+    "liver": "Milk thistle, Vitamin E.",
+    "kidney": "Only under strict medical supervision. High dosage sensitivity.",
+    "thyroid": "Selenium, Vitamin D.",
+    "metabolic": "Chromium, Magnesium, Berberine.",
+    "blood": "Only if deficiency is flagged (iron/B12)."
+  },
+  "gps": {
+    "consent_title": "Share Location for Doctor Recommendation",
+    "consent_desc": "Smart Health Predictor requires your GPS location to search for nearby specialist doctors and hospitals matching your recommended specialties.",
+    "allow_btn": "Share Location",
+    "deny_btn": "Enter Manually",
+    "placeholder_city": "Enter City or Pincode",
+    "find_btn": "Search Clinics",
+    "distance": "Distance",
+    "rating": "Rating",
+    "get_directions": "Get Directions",
+    "travel_advisory": "Travel Advisory",
+    "phc_option": "Nearest Primary Health Center (PHC)"
+  }
+}

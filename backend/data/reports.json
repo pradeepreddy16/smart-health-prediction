@@ -1,0 +1,93 @@
+[
+  {
+    "userId": "admin-1",
+    "patientDetails": {
+      "name": "System Administrator",
+      "age": 28,
+      "gender": "Male",
+      "bmi": 24.8,
+      "weight": 70,
+      "height": 168,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 168,
+        "bmi": 24.8
+      }
+    },
+    "symptomsSummary": [
+      "chest_pain",
+      "abdominal_pain"
+    ],
+    "historySummary": "no",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 50,
+      "liver": 75,
+      "kidney": 95,
+      "thyroid": 95,
+      "metabolic": 95,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 50,
+        "status": "caution",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "overallRisk": "Medium",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-13T05:54:34.650Z",
+    "id": "evoypooa8",
+    "createdAt": "2026-07-13T05:54:34.652Z"
+  }
+]
