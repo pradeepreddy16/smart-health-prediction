@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "adminId": "admin-1",
+    "action": "DELETE USER ACCOUNT",
+    "targetId": "qdozz1lvq",
+    "details": "Deleted account of email: ss123@gmail.com",
+    "timestamp": "2026-07-13T06:56:59.793Z",
+    "id": "pse41wdx0",
+    "createdAt": "2026-07-13T06:56:59.796Z"
+  }
+]
