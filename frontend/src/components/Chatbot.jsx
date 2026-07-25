@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { MessageSquare, X, Send, Bot, CheckSquare, Plus, ArrowRight } from 'lucide-react';
+import { MessageSquare, X, Send, Bot, CheckSquare, Plus, ArrowRight, Volume2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const SYSTEM_SYMPTOMS = [
-  { id: 'chest_pain', en: 'Chest Pain', ta: 'நெஞ்சு வலி', te: 'గుండె నొప్పి', kn: 'ಎದೆ ನೋವು', ml: 'നെഞ്ചുവേദന' },
-  { id: 'yellow_skin', en: 'Yellowish Skin/Eyes', ta: 'மஞ்சள் காமாலை/கண்கள்', te: 'పసుపు చర్మం/కళ్ళు', kn: 'ಹಳದಿ ಚರ್ಮ/ಕಣ್ಣುಗಳು', ml: 'മഞ്ഞനിറമുള്ള ചർമ്മം/കണ്ണുകൾ' },
-  { id: 'swollen_ankles', en: 'Swollen Ankles/Feet', ta: 'கணுக்கால்/பாத வீக்கம்', te: 'మడమల వాపు', kn: 'ಹಿಮ್ಮಡಿಗಳ ಉತ', ml: 'കണങ്കാലിലെ വീക്കം' },
-  { id: 'extreme_fatigue', en: 'Extreme Fatigue', ta: 'அதிகப்படியான சோர்வு', te: 'తీవ్రమైన అలసట', kn: 'ವಿಪರೀತ ಆಯಾಸ', ml: 'കടുത്ത ക്ഷീണം' },
-  { id: 'excessive_thirst', en: 'Excessive Thirst', ta: 'அதிகப்படியான தாகம்', te: 'విపరీతమైన దాహం', kn: 'ವಿಪರೀತ ಬಾಯಾರಿಕೆ', ml: 'അമിതമായ ദാഹം' },
-  { id: 'dizziness', en: 'Dizziness / Lightheadedness', ta: 'தலைச்சுற்றல்', te: 'కళ్ళు తిరగడం', kn: 'ತಲೆಸುತ್ತು', ml: 'തലകറക്കം' }
+  { id: 'chest_pain', en: 'Chest Pain', ta: 'நெஞ்சு வலி', te: 'గుండె నొప్పి', kn: 'ಎದೆ ನೋವು', ml: 'നെഞ്ചുവേദന', hi: 'सीने में दर्द' },
+  { id: 'yellow_skin', en: 'Yellowish Skin/Eyes', ta: 'மஞ்சள் காமாலை/கண்கள்', te: 'పసుపు చర్మం/కళ్ళు', kn: 'ಹಳದಿ ಚರ್ಮ/ಕಣ್ಣುಗಳು', ml: 'മഞ്ഞനിറമുള്ള ചർമ്മം/കണ്ണുകൾ', hi: 'पीली त्वचा/आंखें' },
+  { id: 'swollen_ankles', en: 'Swollen Ankles/Feet', ta: 'கணுக்கால்/பாத வீக்கம்', te: 'మడమల వాపు', kn: 'ಹಿಮ್ಮಡಿಗಳ ಉತ', ml: 'കണങ്കാലിലെ വീക്കം', hi: 'पैरों में सूजन' },
+  { id: 'extreme_fatigue', en: 'Extreme Fatigue', ta: 'அதிகப்படியான சோர்வு', te: 'తీవ్రమైన అలసట', kn: 'ವಿಪರೀತ ಆಯಾಸ', ml: 'കടുത്ത ക്ഷീണം', hi: 'अत्यधिक थकान' },
+  { id: 'excessive_thirst', en: 'Excessive Thirst', ta: 'அதிகப்படியான தாகம்', te: 'విపరీతమైన దాహం', kn: 'ವಿಪರೀತ ಬಾಯಾರಿಕೆ', ml: 'അമിതമായ ദാഹം', hi: 'अत्यधिक प्यास' },
+  { id: 'dizziness', en: 'Dizziness / Lightheadedness', ta: 'தலைச்சுற்றல்', te: 'కళ్ళు తిరగడం', kn: 'ತಲೆಸುತ್ತು', ml: 'തലകറക്കം', hi: 'चक्कर आना' }
 ];
 
 export default function Chatbot({ onPrefillSymptoms }) {
@@ -26,6 +26,13 @@ export default function Chatbot({ onPrefillSymptoms }) {
     return symptom[lang] || symptom.en;
   };
 
+  const speakText = (text) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = i18n.language || 'en-US';
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  };
+
   // Set initial welcome message
   useEffect(() => {
     const lang = i18n.language || 'en';
@@ -34,6 +41,7 @@ export default function Chatbot({ onPrefillSymptoms }) {
     if (lang === 'te') welcome = "నమస్కారం! నేను మీ AI లక్షణాల సహాయకుడిని. మీకు అనిపించే లక్షణాలను కింద సెలెక్ట్ చేయండి లేదా టైప్ చేయండి. వాటిని నేను రిస్క్ ఫారమ్‌కి మారుస్తాను.";
     if (lang === 'kn') welcome = "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ AI ಲಕ್ಷಣಗಳ ಸಹಾಯಕ. ಕೆಳಗಿರುವ ನಿಮ್ಮ ಲಕ್ಷಣಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಅಥವಾ ಟೈಪ್ ಮಾಡಿ. ಅವುಗಳನ್ನು ಫಾರಂಗೆ ವರ್ಗಾಯಿಸಲು ನಾನು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ.";
     if (lang === 'ml') welcome = "നമസ്കാരം! ഞാൻ നിങ്ങളുടെ AI രോഗലക്ഷണ സഹായിയാണ്. താഴെ പറയുന്ന ലക്ഷണങ്ങൾ തിരഞ്ഞെടുക്കുകയോ ടൈപ്പ് ചെയ്യുകയോ ചെയ്യുക. അവ കണക്കുകൂട്ടൽ ഫോമിലേക്ക് മാറ്റാൻ ഞാൻ സഹായിക്കാം.";
+    if (lang === 'hi') welcome = "नमस्ते! मैं आपका AI लक्षण सहायक हूं। नीचे दिए गए लक्षणों को चुनें या टाइप करें। मैं उन्हें स्वास्थ्य अनुमानक फॉर्म में भरने में मदद करूँगा।";
 
     setMessages([
       { id: '1', sender: 'bot', text: welcome, showChecklist: true }

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "key_1",
+    "name": "Gemini AI Inference Key",
+    "key": "AIzaSyB-GeminiInferenceKey2026",
+    "status": "active",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "id": "key_2",
+    "name": "Google Maps Nearby Care Location API",
+    "key": "AIzaSyC-GoogleMapsNearbyCare2026",
+    "status": "active",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "id": "key_3",
+    "name": "Razorpay Digital Payment Gateway Key",
+    "key": "rzp_test_PaymentGatewayKey2026",
+    "status": "active",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "id": "key_4",
+    "name": "Apollo Telemedicine Integration API",
+    "key": "ap_auth_ApolloConsultation2026",
+    "status": "inactive",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "id": "key_5",
+    "name": "SMS Gateway Authentication Key (Twilio)",
+    "key": "AC_twilio_SMSGatewayAuth2026",
+    "status": "inactive",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "id": "key_6",
+    "name": "FHIR Electronic Health Records API",
+    "key": "fhir_client_EHRRecordsKey2026",
+    "status": "inactive",
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  }
+]

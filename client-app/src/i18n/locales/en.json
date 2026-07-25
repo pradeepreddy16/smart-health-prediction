@@ -1,0 +1,69 @@
+{
+  "app_name": "Smart Health Predictor",
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "predict": "Risk Predictor",
+    "advance": "Advance",
+    "telemedicine": "Telemedicine",
+    "find_care": "Find Care Nearby",
+    "forum": "Community Forum",
+    "logout": "Logout",
+    "signin": "Sign In",
+    "get_started": "Get Started"
+  },
+  "login": {
+    "title": "Clinical Health Portal",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Sign In",
+    "google": "Sign in with Google",
+    "forgot": "Forgot Password?"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "streak": "Daily Adherence Streak",
+    "wallet": "Health Wallet Balance",
+    "add_money": "Add Money",
+    "wearable": "Smartwatch Vitals Sync",
+    "medicine_reminders": "Medicine Reminder Schedule",
+    "add_medicine": "Add Schedule",
+    "edit_profile": "Edit Full Details",
+    "new_assessment": "New Health Assessment",
+    "recent_assessments": "Recent Health Assessments"
+  },
+  "telemedicine": {
+    "title": "Telemedicine & Specialist Portal",
+    "subtitle": "Connect with verified medical specialists via HD video call, direct phone line, or offline visit booking.",
+    "discovery_title": "Hospital & Specialist Discovery",
+    "discovery_subtitle": "Choose GPS detection or type manual search area.",
+    "auto_gps": "Auto GPS",
+    "manual_address": "Manual Address",
+    "directory_title": "Verified Specialist Directory",
+    "verified": "VERIFIED",
+    "hd_video": "HD Video Consultation",
+    "direct_call": "Direct Call",
+    "offline_visit": "Offline Visit",
+    "get_directions": "Get Directions",
+    "fee": "Fee"
+  },
+  "payment": {
+    "consultation_fee": "Consultation Fee Payment",
+    "wallet_topup": "Health Wallet Top-Up",
+    "select_method": "Select Payment Method",
+    "upi_qr": "UPI / QR Code",
+    "phonepe": "PhonePe / GPay",
+    "card": "Debit / Credit Card",
+    "wallet": "Health Wallet",
+    "scan_qr": "Scan QR Code using any UPI App (Google Pay, PhonePe, Paytm)",
+    "verifying": "Polling gateway status for real payment confirmation...",
+    "simulate": "Simulate Gateway Payment (Test Mode)",
+    "confirm_wallet": "Pay with Health Wallet",
+    "download_receipt": "Download PDF Payment Receipt"
+  },
+  "chatbot": {
+    "title": "Smart Health Assistant",
+    "placeholder": "Ask a health question or symptom...",
+    "greeting": "Hello! I am your Smart Health AI Assistant. Ask about symptoms, referrals, vitals, or telemedicine appointments."
+  }
+}

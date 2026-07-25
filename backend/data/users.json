@@ -1,1 +1,534 @@
-[]
+[
+  {
+    "name": "king",
+    "email": "king12@gmail.com",
+    "password": "$2a$10$jHcGJvczS9vejh.ZyAHYJOOzy58EGBKBe4dll83wfaAbf20ZXikUS",
+    "mobileNumber": "7894561253",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "walletBalance": 6750,
+    "walletHistory": [
+      {
+        "type": "credit",
+        "amount": 500,
+        "txnId": "ORD_1784547529710_U5BLM",
+        "date": "2026-07-20T11:38:53.695Z",
+        "description": "Video Consultation — Dr. Rajesh (Fortis Malar)"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784593175064_EJJS8",
+        "date": "2026-07-21T00:19:37.521Z",
+        "description": "Video Consultation — Dr. Priyan (Apollo Hospital)"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784595068840_F9JVG",
+        "date": "2026-07-21T00:51:10.672Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784595110626_5Y36N",
+        "date": "2026-07-21T00:52:06.881Z",
+        "description": "Video Consultation — Dr. Priyan & Apollo Greams Road Hospital"
+      },
+      {
+        "type": "debit",
+        "amount": 550,
+        "txnId": "TXN_WALL_1784595386231",
+        "date": "2026-07-21T00:56:26.231Z",
+        "description": "Video Consultation — Dr. Vikram Varma — NIMS Speciality"
+      },
+      {
+        "type": "debit",
+        "amount": 400,
+        "txnId": "TXN_WALL_1784595407407",
+        "date": "2026-07-21T00:56:47.407Z",
+        "description": "Video Consultation — Dr. Rajesh Sundaram — Fortis Malar"
+      },
+      {
+        "type": "credit",
+        "amount": 400,
+        "txnId": "ORD_1784595572299_1RNE4",
+        "date": "2026-07-21T00:59:35.954Z",
+        "description": "Offline Consultation — Dr. Rajesh Sundaram — Fortis Malar"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784595790598_84U41",
+        "date": "2026-07-21T01:03:15.098Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784596394657_P9K0E",
+        "date": "2026-07-21T01:13:16.078Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784596800476_PMWCC",
+        "date": "2026-07-21T01:20:11.415Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784597829424_W1O05",
+        "date": "2026-07-21T01:37:20.031Z",
+        "description": "Video Consultation — Dr. Priyan & Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784613595060_REKB7",
+        "date": "2026-07-21T05:59:57.096Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784613698903_55V6N",
+        "date": "2026-07-21T06:01:41.664Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784619977575_5Y74A",
+        "date": "2026-07-21T07:46:20.134Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784621603488_B6TEW",
+        "date": "2026-07-21T08:13:35.355Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784621683324_J96IJ",
+        "date": "2026-07-21T08:14:54.171Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784684608138_QIIJI",
+        "date": "2026-07-22T01:43:37.002Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 500,
+        "txnId": "ORD_1784691746165_TN0BO",
+        "date": "2026-07-22T03:42:29.970Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784875514068_UISUT",
+        "date": "2026-07-24T06:45:15.545Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784542039532_MTDWU",
+        "date": "2026-07-24T06:53:41.052Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784877409071_DK4J4",
+        "date": "2026-07-24T07:21:48.886Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784887257934_MV07A",
+        "date": "2026-07-24T10:01:50.052Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784890459408_OLI2U",
+        "date": "2026-07-24T10:54:33.446Z",
+        "description": "Health Wallet Top-up"
+      }
+    ],
+    "streakCount": 0,
+    "adherenceLogs": [
+      {
+        "date": "2026-07-20",
+        "status": "completed",
+        "updatedAt": "2026-07-20T10:07:53.692Z"
+      }
+    ],
+    "createdAt": "2026-07-20T10:04:51.248Z",
+    "id": "bm4fhqpo0",
+    "updatedAt": "2026-07-25T01:47:09.253Z",
+    "medicineReminders": [
+      {
+        "id": "rem_1784899783925_qvt3",
+        "name": "paracetamol",
+        "dosage": "1 tablet",
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-25",
+        "times": [
+          "06:16 AM"
+        ],
+        "notes": "take now",
+        "status": "active",
+        "createdAt": "2026-07-24T13:29:43.925Z",
+        "updatedAt": "2026-07-25T00:45:25.186Z"
+      }
+    ],
+    "googleId": "google_id_king12"
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_xa5t7@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 1500,
+    "walletHistory": [
+      {
+        "type": "credit",
+        "amount": 1000,
+        "txnId": "TXN_INIT_ZNZ08VO",
+        "date": "2026-07-20T10:11:59.245Z",
+        "description": "Initial Promo Credit"
+      },
+      {
+        "type": "credit",
+        "amount": 500,
+        "txnId": "ORD_1784542757415_DKMX2",
+        "date": "2026-07-20T10:19:20.947Z",
+        "description": "Health Wallet Top-up"
+      }
+    ],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-20T10:11:59.246Z",
+    "id": "s0qsflnnv",
+    "updatedAt": "2026-07-20T10:40:54.050Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "jik",
+    "email": "king13@gmail.com",
+    "password": "$2a$10$ZW2vc8jTAGs/TBRIGbLxmujUkHZlUWfORAw4B3eE0ZJOFXiYaWoEC",
+    "mobileNumber": "4561237890",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-20T11:43:06.505Z",
+    "id": "7t54rfig5",
+    "updatedAt": "2026-07-20T11:46:41.647Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_9snb6@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 1350,
+    "walletHistory": [
+      {
+        "type": "credit",
+        "amount": 1000,
+        "txnId": "TXN_INIT_6DMGCYQ",
+        "date": "2026-07-21T00:44:23.205Z",
+        "description": "Initial Promo Credit"
+      },
+      {
+        "type": "credit",
+        "amount": 250,
+        "txnId": "ORD_1784594670090_2ARVB",
+        "date": "2026-07-21T00:44:33.061Z",
+        "description": "Health Wallet Top-up"
+      },
+      {
+        "type": "credit",
+        "amount": 100,
+        "txnId": "ORD_1784594693168_ZA21V",
+        "date": "2026-07-21T00:44:58.038Z",
+        "description": "Health Wallet Top-up"
+      }
+    ],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T00:44:23.205Z",
+    "id": "ccjubux61",
+    "updatedAt": "2026-07-21T05:33:54.310Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "jink",
+    "email": "jink12@gmail.com",
+    "password": "$2a$10$PWZ76Ez243Bv38ozqM3BFOw6DTy32GRyv72bRqGHzn79fFX7egghS",
+    "mobileNumber": "1478523694",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T01:46:56.442Z",
+    "id": "uw7eyp5d0",
+    "updatedAt": "2026-07-21T01:46:56.508Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "john",
+    "email": "jon12@gmail.com",
+    "password": "$2a$10$5YUiMmxfIri8gtx0bNlm1OptLL9SzxGRZm89TYamfoDEdy8A/qw3O",
+    "mobileNumber": "7845691231",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T01:47:32.203Z",
+    "id": "ninoq7o9o",
+    "updatedAt": "2026-07-21T02:07:45.274Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "End-to-End Test User",
+    "email": "e2etest_user@health.com",
+    "password": "$2a$10$4ilHE4r0ELOGSrK05FnddeCXddC5AkG9eQW7x8hRBgQuUN32cTSrG",
+    "mobileNumber": "+91 98765 99999",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T05:39:33.241Z",
+    "id": "kc3tzf0hc",
+    "medicineReminders": []
+  },
+  {
+    "name": "Live Demo Patient 99",
+    "email": "live_demo_patient_99@health.com",
+    "password": "$2a$10$PdHLk9iS/iprZz9LiTc40.HTjTRN45hj1Is.KQlfBoZb8xUS.r5gW",
+    "mobileNumber": "+91 99887 76655",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T05:40:17.621Z",
+    "id": "ey8c9o61c",
+    "medicineReminders": []
+  },
+  {
+    "name": "uiko",
+    "email": "uiko12@gmail.com",
+    "password": "$2a$10$DF563zQA6tH708HI6LcCF.7i/0NwWe2Qo8HZMJLLfIJ9Tz0A9bS66",
+    "mobileNumber": "4718529632",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T10:54:13.929Z",
+    "id": "do50h2bdo",
+    "updatedAt": "2026-07-22T01:05:36.436Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "game",
+    "email": "gamesaregames16@gmail.com",
+    "password": "$2a$10$LdapMjGZL/nvddtZUYWm3OUQPuFzS6R/YJ.5B17ggpt4/sAmmj/a.",
+    "mobileNumber": "7894561423",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-21T11:47:17.140Z",
+    "id": "blpxqj9fz",
+    "updatedAt": "2026-07-22T03:14:05.947Z",
+    "age": 35,
+    "gender": "Male",
+    "address": "",
+    "medicalHistory": "",
+    "emergencyContactName": "",
+    "emergencyContactPhone": "",
+    "medicineReminders": []
+  },
+  {
+    "name": "kong",
+    "email": "king00@gmail.com",
+    "password": "$2a$10$u90I0sT2B2lFHGYZWEKOpOWrzCXc90jFe5ONnNPEsF4WotsJQMq/W",
+    "mobileNumber": "1478893694",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-22T01:54:00.993Z",
+    "id": "uxba9inak",
+    "updatedAt": "2026-07-22T02:09:02.550Z",
+    "medicineReminders": []
+  },
+  {
+    "name": "Kong Test",
+    "email": "kong00@gmail.com",
+    "password": "$2a$10$rPDWgEQibFM82DBSTt8y2uA3t0FP4JSHj/N7xPmWXk1OMME9He7Nu",
+    "mobileNumber": "9876543210",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 450,
+    "walletHistory": [
+      {
+        "type": "credit",
+        "amount": 450,
+        "txnId": "ORD_1784687764493_16BL3",
+        "date": "2026-07-22T02:36:09.969Z",
+        "description": "Video Consultation — Apollo Greams Road Hospital"
+      }
+    ],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-22T02:28:34.682Z",
+    "id": "cwlcnj5wt",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-22T02:51:22.287Z"
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_j40ou@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-22T03:35:05.112Z",
+    "id": "rcsrxf2k6",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-22T03:35:05.285Z"
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_14vnb@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-22T03:35:23.100Z",
+    "id": "dcii55qft",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-22T03:35:23.219Z"
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_3i7lm@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-24T09:41:03.273Z",
+    "id": "cqch7tq39",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-24T09:41:03.631Z"
+  },
+  {
+    "name": "Google User",
+    "email": "google_user_gflx4@health.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_123456",
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-24T09:41:16.733Z",
+    "id": "f8vall2do",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-24T09:43:30.810Z"
+  },
+  {
+    "name": "Dr. Alex Morgan",
+    "email": "alex.morgan@gmail.com",
+    "role": "user",
+    "status": "active",
+    "isVerified": true,
+    "googleId": "google_id_alex",
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-24T09:45:42.137Z",
+    "id": "3mp79ggh4",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-24T11:08:08.045Z"
+  },
+  {
+    "name": "john",
+    "email": "lol12@gmail.com",
+    "password": "$2a$10$ao/HUMvzLJgRl.bW4GuDde7RVIInw8VX2ltwJeVRztn740.J9iblO",
+    "mobileNumber": "7894561470",
+    "role": "user",
+    "status": "active",
+    "isVerified": false,
+    "walletBalance": 0,
+    "walletHistory": [],
+    "streakCount": 0,
+    "adherenceLogs": [],
+    "createdAt": "2026-07-24T09:52:02.675Z",
+    "id": "ztktbprvv",
+    "medicineReminders": [],
+    "updatedAt": "2026-07-24T09:53:03.543Z"
+  }
+]

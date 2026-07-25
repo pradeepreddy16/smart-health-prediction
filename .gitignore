@@ -2,11 +2,16 @@
 node_modules/
 backend/node_modules/
 frontend/node_modules/
+client-app/node_modules/
+admin-app/node_modules/
 
 # Production builds
 dist/
 frontend/dist/
+client-app/dist/
+admin-app/dist/
 backend/dist/
+*.pdf
 
 # Env / Secrets
 .env

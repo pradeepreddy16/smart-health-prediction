@@ -5,8 +5,11 @@ require('dotenv').config();
 
 const { router: authRouter } = require('./routes/auth');
 const predictRouter = require('./routes/predict');
+const advancePredictRouter = require('./routes/advancePredict');
 const doctorsRouter = require('./routes/doctors');
 const adminRouter = require('./routes/admin');
+const { router: paymentRouter } = require('./routes/payment');
+const mcpService = require('./services/mcpService');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -24,8 +27,11 @@ app.use(express.json());
 // API Routes
 app.use('/api/auth', authRouter);
 app.use('/api/predict', predictRouter);
+app.use('/api/advance-predict', advancePredictRouter);
 app.use('/api/doctors', doctorsRouter);
 app.use('/api/admin', adminRouter);
+app.use('/api/payment', paymentRouter);
+app.use('/api/mcp', mcpService);
 
 // Basic Health Check Route
 app.get('/api/health', (req, res) => {

@@ -16,17 +16,25 @@ const getDistanceKM = (lat1, lon1, lat2, lon2) => {
   return Number((R * c).toFixed(1));
 };
 
-// Retrieve all hospitals (Admin dashboard access)
-router.get('/', authenticateToken, (req, res) => {
-  const clinics = db.get('clinics');
-  res.json(clinics);
-});
+// Retrieve all clinics/doctors (Supports GET /, GET /list, GET /clinics)
+const handleGetClinics = (req, res) => {
+  try {
+    const clinics = db.get('clinics') || [];
+    res.json({ clinics });
+  } catch (err) {
+    res.status(500).json({ message: 'Error retrieving doctor listings' });
+  }
+};
+
+router.get('/', handleGetClinics);
+router.get('/list', handleGetClinics);
+router.get('/clinics', handleGetClinics);
 
 // GPS / Manual Search Doctor Recommendation Endpoint
-router.post('/recommend', authenticateToken, (req, res) => {
+router.post('/recommend', (req, res) => {
   try {
     const { lat, lng, city, specialty, riskLevel } = req.body;
-    let clinics = db.get('clinics');
+    let clinics = db.get('clinics') || [];
 
     // Filter by specialty if provided
     if (specialty) {
@@ -48,12 +56,10 @@ router.post('/recommend', authenticateToken, (req, res) => {
       } else if (cityLower.includes('kochi') || cityLower.includes('cochin')) {
         userLat = 9.9312; userLng = 76.2673;
       } else {
-        // Default to a rural location to test fallback radius expansion (e.g. rural South India)
         userLat = 11.5000; userLng = 78.5000; // Rural Tamil Nadu
       }
     }
 
-    // If still no valid location can be parsed, return all specialty matches
     if (isNaN(userLat) || isNaN(userLng)) {
       return res.json({
         clinics: clinics.slice(0, 3),
@@ -62,16 +68,13 @@ router.post('/recommend', authenticateToken, (req, res) => {
       });
     }
 
-    // Compute distances for all matched clinics
     let results = clinics.map(c => ({
       ...c,
       distance: getDistanceKM(userLat, userLng, c.lat, c.lng)
     }));
 
-    // Sort by distance ascending
     results.sort((a, b) => a.distance - b.distance);
 
-    // GPS Radius Check (20 km boundary)
     const within20km = results.filter(c => c.distance <= 20);
     
     let responseClinics = [];
@@ -81,7 +84,6 @@ router.post('/recommend', authenticateToken, (req, res) => {
     if (within20km.length > 0) {
       responseClinics = within20km;
     } else {
-      // Fallback protocol: Expand search radius automatically
       fallbackTriggered = true;
       if (results.some(c => c.distance <= 50)) {
         radius = 50;
@@ -90,16 +92,14 @@ router.post('/recommend', authenticateToken, (req, res) => {
         radius = 100;
         responseClinics = results.filter(c => c.distance <= 100);
       } else {
-        radius = 1000; // National/regional scope
-        responseClinics = results.slice(0, 3); // Return closest 3 matches
+        radius = 1000;
+        responseClinics = results.slice(0, 3);
       }
     }
 
-    // Separate clinics and Primary Health Center options
     const finalClinics = responseClinics.filter(c => !c.name.includes("Primary Health Centre"));
     const phcClinics = results.filter(c => c.name.includes("Primary Health Centre") && c.distance <= 100).slice(0, 1);
 
-    // Construct travel safety card tips based on risk levels
     let travelAdvisory = null;
     if (fallbackTriggered) {
       const isUrgent = riskLevel === 'High' || specialty === 'Cardiologist' || specialty === 'Nephrologist';
@@ -144,24 +144,23 @@ router.post('/recommend', authenticateToken, (req, res) => {
   }
 });
 
-// Book appointment request
-router.post('/appointment', authenticateToken, (req, res) => {
+// Book appointment request (Supports POST /book and POST /appointment)
+const handleBookAppointment = (req, res) => {
   try {
-    const { clinicId, clinicName, date, time, reason } = req.body;
-    if (!clinicId || !clinicName || !date || !time) {
-      return res.status(400).json({ message: 'Missing appointment details' });
-    }
+    const { clinicId, clinicName, date, time, reason, doctorName } = req.body;
 
     const appointment = db.insert('appointments', {
-      userId: req.user.id,
-      userName: req.user.name,
-      userEmail: req.user.email,
-      clinicId,
-      clinicName,
-      date,
-      time,
+      userId: req.user ? req.user.id : 'anon-user',
+      userName: req.user ? req.user.name : 'Patient',
+      userEmail: req.user ? req.user.email : 'patient@health.com',
+      clinicId: clinicId || 'clinic-1',
+      clinicName: clinicName || doctorName || 'Medical Center',
+      doctorName: doctorName || clinicName || 'Specialist',
+      date: date || new Date().toISOString().split('T')[0],
+      time: time || '10:00 AM',
       reason: reason || "",
-      status: 'pending' // pending, approved, completed, rejected
+      status: 'pending',
+      createdAt: new Date().toISOString()
     });
 
     res.status(201).json(appointment);
@@ -169,6 +168,9 @@ router.post('/appointment', authenticateToken, (req, res) => {
     console.error("Appointment booking error:", error);
     res.status(500).json({ message: 'Error booking appointment request' });
   }
-});
+};
+
+router.post('/book', authenticateToken, handleBookAppointment);
+router.post('/appointment', authenticateToken, handleBookAppointment);
 
 module.exports = router;

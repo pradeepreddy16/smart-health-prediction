@@ -89,5 +89,1678 @@
     "timestamp": "2026-07-13T05:54:34.650Z",
     "id": "evoypooa8",
     "createdAt": "2026-07-13T05:54:34.652Z"
+  },
+  {
+    "userId": "yzya8a2j4",
+    "patientDetails": {
+      "name": "king",
+      "age": 47,
+      "gender": "Male",
+      "bmi": 24.3,
+      "weight": 78,
+      "height": 179,
+      "vitalsSummary": {
+        "systolic": 123,
+        "diastolic": 78,
+        "sugar": 78,
+        "temperature": 98.6,
+        "weight": 78,
+        "height": 179,
+        "bmi": 24.3
+      }
+    },
+    "symptomsSummary": [
+      "foamy_urine",
+      "swollen_ankles",
+      "frequent_urination"
+    ],
+    "historySummary": "",
+    "assessment": {
+      "bpLevel": "Elevated",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": []
+    },
+    "organScores": {
+      "heart": 95,
+      "liver": 95,
+      "kidney": 15,
+      "thyroid": 95,
+      "metabolic": 95,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 15,
+        "status": "at_risk",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "overallRisk": "High",
+    "recommendedSpecialist": "Nephrologist",
+    "timestamp": "2026-07-20T09:34:43.129Z",
+    "id": "648nrxuuo",
+    "createdAt": "2026-07-20T09:34:43.131Z"
+  },
+  {
+    "userId": "s0qsflnnv",
+    "patientDetails": {
+      "name": "uinh",
+      "age": 35,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Shortness of Breath",
+      "Persistent Fatigue"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": true
+    },
+    "symptomsSummary": [
+      "Shortness of Breath",
+      "Persistent Fatigue"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":true}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-20T10:14:29.695Z",
+    "createdAt": "2026-07-20T10:14:29.698Z",
+    "id": "ue51a6n25"
+  },
+  {
+    "userId": "s0qsflnnv",
+    "patientDetails": {
+      "name": "ploiy",
+      "age": 27,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Shortness of Breath",
+      "Sudden Weight Loss / Gain",
+      "Frequent Urination"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": true,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Shortness of Breath",
+      "Sudden Weight Loss / Gain",
+      "Frequent Urination"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":true,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-20T10:15:37.213Z",
+    "createdAt": "2026-07-20T10:15:37.215Z",
+    "id": "9lllhor0p"
+  },
+  {
+    "userId": "7t54rfig5",
+    "patientDetails": {
+      "name": "jik",
+      "age": 35,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Joint Pain / Stiffness"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Joint Pain / Stiffness"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.5 - 8.5 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (35 yrs) and physiological risk: 7.5 - 8.5 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-20T11:43:52.279Z",
+    "createdAt": "2026-07-20T11:43:52.282Z",
+    "id": "0jshk695v"
+  },
+  {
+    "userId": "7t54rfig5",
+    "patientDetails": {
+      "name": "jik",
+      "age": 35,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Skin Rash / Redness",
+      "Sudden Weight Loss / Gain",
+      "Shortness of Breath"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Skin Rash / Redness",
+      "Sudden Weight Loss / Gain",
+      "Shortness of Breath"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.5 - 8.5 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (35 yrs) and physiological risk: 7.5 - 8.5 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-20T11:44:14.404Z",
+    "createdAt": "2026-07-20T11:44:14.405Z",
+    "id": "tqequw7rg"
+  },
+  {
+    "userId": "7t54rfig5",
+    "patientDetails": {
+      "name": "jik",
+      "age": 35,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 98.6,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Joint Pain / Stiffness"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Joint Pain / Stiffness"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.5 - 8.5 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (35 yrs) and physiological risk: 7.5 - 8.5 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-20T11:48:21.762Z",
+    "createdAt": "2026-07-20T11:48:21.767Z",
+    "id": "qyszfwehu"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "patientDetails": {
+      "name": "sharma",
+      "age": 76,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 124,
+        "diastolic": 67,
+        "sugar": 92,
+        "temperature": 97,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Skin Rash / Redness",
+      "Chronic Headaches"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Chest Pain / Discomfort",
+      "Frequent Urination",
+      "Skin Rash / Redness",
+      "Chronic Headaches"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Elevated",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": []
+    },
+    "organScores": {
+      "heart": 85,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 85,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.0 - 8.0 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (76 yrs) and physiological risk: 7.0 - 8.0 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Endocrinologist",
+    "timestamp": "2026-07-21T07:26:25.388Z",
+    "createdAt": "2026-07-21T07:26:25.389Z",
+    "id": "vcv3yzp9g"
+  },
+  {
+    "userId": "do50h2bdo",
+    "patientDetails": {
+      "name": "orik",
+      "age": 89,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 152,
+        "diastolic": 86,
+        "sugar": 100,
+        "temperature": 95,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Chest Pain / Discomfort",
+      "Shortness of Breath",
+      "Frequent Urination"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Chest Pain / Discomfort",
+      "Shortness of Breath",
+      "Frequent Urination"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 2 Hypertension",
+      "sugarLevel": "Prediabetic Range",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "High blood pressure detected. Limit salt and monitor readings.",
+        "Borderline glucose levels detected. Avoid sweet drinks and get regular physical exercise."
+      ]
+    },
+    "organScores": {
+      "heart": 65,
+      "liver": 95,
+      "kidney": 80,
+      "thyroid": 95,
+      "metabolic": 65,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 65,
+        "status": "caution",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 65,
+        "status": "caution",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.0 - 8.0 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (89 yrs) and physiological risk: 7.0 - 8.0 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Medium",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-22T01:06:22.785Z",
+    "createdAt": "2026-07-22T01:06:22.789Z",
+    "id": "m95nfmol3"
+  },
+  {
+    "userId": "uxba9inak",
+    "patientDetails": {
+      "name": "tik",
+      "age": 67,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 120,
+        "diastolic": 80,
+        "sugar": 95,
+        "temperature": 94.7,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Shortness of Breath",
+      "Chest Pain / Discomfort",
+      "Persistent Fatigue"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Shortness of Breath",
+      "Chest Pain / Discomfort",
+      "Persistent Fatigue"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.0 - 8.0 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (67 yrs) and physiological risk: 7.0 - 8.0 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-22T02:05:13.321Z",
+    "createdAt": "2026-07-22T02:05:13.328Z",
+    "id": "joode14k4"
+  },
+  {
+    "userId": "ztktbprvv",
+    "patientDetails": {
+      "name": "lol",
+      "age": 45,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 152,
+        "diastolic": 62,
+        "sugar": 96,
+        "temperature": 95.8,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Chest Pain / Discomfort",
+      "Sudden Weight Loss / Gain",
+      "Skin Rash / Redness"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Chest Pain / Discomfort",
+      "Sudden Weight Loss / Gain",
+      "Skin Rash / Redness"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 2 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "High blood pressure detected. Limit salt and monitor readings."
+      ]
+    },
+    "organScores": {
+      "heart": 65,
+      "liver": 95,
+      "kidney": 80,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 65,
+        "status": "caution",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.5 - 8.5 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (45 yrs) and physiological risk: 7.5 - 8.5 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Medium",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-24T09:53:46.515Z",
+    "createdAt": "2026-07-24T09:53:46.516Z",
+    "id": "58qremx3m"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "patientDetails": {
+      "name": "kij",
+      "age": 78,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 123,
+        "diastolic": 85,
+        "sugar": 98,
+        "temperature": 96,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Shortness of Breath",
+      "Frequent Urination",
+      "Skin Rash / Redness"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Shortness of Breath",
+      "Frequent Urination",
+      "Skin Rash / Redness"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.0 - 8.0 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (78 yrs) and physiological risk: 7.0 - 8.0 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-25T00:57:35.370Z",
+    "createdAt": "2026-07-25T00:57:35.371Z",
+    "id": "vkhcmxkec"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "patientDetails": {
+      "name": "king",
+      "age": 78,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 142,
+        "diastolic": 85,
+        "sugar": 96,
+        "temperature": 97.9,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Shortness of Breath",
+      "Chest Pain / Discomfort",
+      "Frequent Urination"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Shortness of Breath",
+      "Chest Pain / Discomfort",
+      "Frequent Urination"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 2 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "High blood pressure detected. Limit salt and monitor readings."
+      ]
+    },
+    "organScores": {
+      "heart": 65,
+      "liver": 95,
+      "kidney": 80,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 65,
+        "status": "caution",
+        "severity": "warning",
+        "consultFlag": true,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.0 - 8.0 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (78 yrs) and physiological risk: 7.0 - 8.0 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Medium",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-25T01:14:43.686Z",
+    "createdAt": "2026-07-25T01:14:43.687Z",
+    "id": "fnh2e32c3"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "patientDetails": {
+      "name": "king",
+      "age": 56,
+      "gender": "Male",
+      "bmi": 24.2,
+      "weight": 70,
+      "height": 170,
+      "vitalsSummary": {
+        "systolic": 122,
+        "diastolic": 85,
+        "sugar": 95,
+        "temperature": 95,
+        "weight": 70,
+        "height": 170,
+        "bmi": 24.2
+      }
+    },
+    "symptoms": [
+      "Skin Rash / Redness",
+      "Sudden Weight Loss / Gain",
+      "Shortness of Breath"
+    ],
+    "familyHistory": {
+      "diabetes": false,
+      "heartDisease": false,
+      "hypertension": false
+    },
+    "symptomsSummary": [
+      "Skin Rash / Redness",
+      "Sudden Weight Loss / Gain",
+      "Shortness of Breath"
+    ],
+    "historySummary": "{\"diabetes\":false,\"heartDisease\":false,\"hypertension\":false}",
+    "assessment": {
+      "bpLevel": "Stage 1 Hypertension",
+      "sugarLevel": "Normal",
+      "bmiCategory": "Normal",
+      "fever": false,
+      "warnings": [
+        "Pre-hypertension levels detected. Monitor dietary sodium."
+      ]
+    },
+    "organScores": {
+      "heart": 75,
+      "liver": 95,
+      "kidney": 90,
+      "thyroid": 95,
+      "metabolic": 80,
+      "blood": 95
+    },
+    "organRecs": {
+      "heart": {
+        "score": 75,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Cardiologist"
+      },
+      "liver": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Gastroenterologist"
+      },
+      "kidney": {
+        "score": 90,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Nephrologist"
+      },
+      "thyroid": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "metabolic": {
+        "score": 80,
+        "status": "good",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "Endocrinologist"
+      },
+      "blood": {
+        "score": 95,
+        "status": "optimal",
+        "severity": "info",
+        "consultFlag": false,
+        "specialty": "General Physician"
+      }
+    },
+    "wellnessCategories": {
+      "nutrition": {
+        "title": "Nutrition & Diet Guidance",
+        "tips": [
+          "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+          "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+          "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+          "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+        ]
+      },
+      "mentalWellness": {
+        "title": "Mental Wellness & Stress Reduction",
+        "tips": [
+          "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+          "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+          "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+        ]
+      },
+      "sleep": {
+        "title": "Sleep & Circadian Rhythm Suggestions",
+        "recommendedDuration": "7.5 - 8.5 hours per night",
+        "tips": [
+          "Recommended sleep duration based on age (56 yrs) and physiological risk: 7.5 - 8.5 hours per night.",
+          "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+          "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+        ]
+      },
+      "preventiveCare": {
+        "title": "General Preventive Care & Health Monitoring",
+        "tips": [
+          "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+          "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+          "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+        ]
+      }
+    },
+    "overallRisk": "Low",
+    "recommendedSpecialist": "Cardiologist",
+    "timestamp": "2026-07-25T01:15:23.853Z",
+    "createdAt": "2026-07-25T01:15:23.863Z",
+    "id": "0kz7jh8lq"
   }
 ]

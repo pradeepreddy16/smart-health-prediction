@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "apt-101",
+    "userName": "John Patient",
+    "doctorName": "Dr. Priyan",
+    "hospitalName": "Apollo Greams Road",
+    "date": "2026-07-22",
+    "time": "10:30 AM",
+    "fee": 450,
+    "type": "Video",
+    "status": "Confirmed"
+  },
+  {
+    "id": "apt-102",
+    "userName": "Rahul Demo",
+    "doctorName": "Dr. Rajesh Sundaram",
+    "hospitalName": "Fortis Malar",
+    "date": "2026-07-23",
+    "time": "02:00 PM",
+    "fee": 400,
+    "type": "Offline",
+    "status": "Completed"
+  },
+  {
+    "id": "apt-103",
+    "userName": "Ananya Rao",
+    "doctorName": "Dr. Swaminathan",
+    "hospitalName": "Manipal Health",
+    "date": "2026-07-24",
+    "time": "11:15 AM",
+    "fee": 500,
+    "type": "Video",
+    "status": "Confirmed"
+  },
+  {
+    "id": "apt-104",
+    "userName": "Meera Nambiar",
+    "doctorName": "Dr. Ananya Rao",
+    "hospitalName": "Aster CMI",
+    "date": "2026-07-25",
+    "time": "04:00 PM",
+    "fee": 350,
+    "type": "Offline",
+    "status": "Pending"
+  }
+]

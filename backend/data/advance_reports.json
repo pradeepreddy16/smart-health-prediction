@@ -1,0 +1,221 @@
+[
+  {
+    "symptoms": [
+      "sinus_pressure",
+      "rusty_sputum"
+    ],
+    "symptomCount": 2,
+    "topDisease": "Pneumonia",
+    "confidence": 17.3,
+    "topMatches": [
+      {
+        "disease": "Pneumonia",
+        "confidence": 17.3,
+        "precautions": [
+          "Consult doctor",
+          "Medication",
+          "Rest",
+          "Follow up"
+        ]
+      },
+      {
+        "disease": "Common Cold",
+        "confidence": 10,
+        "precautions": [
+          "Drink vitamin c rich drinks",
+          "Take vapour",
+          "Avoid cold food",
+          "Keep fever in check"
+        ]
+      },
+      {
+        "disease": "Fungal infection",
+        "confidence": 7.2,
+        "precautions": [
+          "Bath twice",
+          "Use detol or neem in bathing water",
+          "Keep infected area dry",
+          "Use clean cloths"
+        ]
+      }
+    ],
+    "createdAt": "2026-07-21T07:49:28.290Z",
+    "id": "vau8898b7"
+  },
+  {
+    "symptoms": [
+      "acidity",
+      "constipation",
+      "extra_marital_contacts"
+    ],
+    "symptomCount": 3,
+    "topDisease": "AIDS",
+    "confidence": 24,
+    "topMatches": [
+      {
+        "disease": "AIDS",
+        "confidence": 24,
+        "precautions": [
+          "Avoid open cuts",
+          "Wear ppe if possible",
+          "Consult doctor",
+          "Follow up"
+        ]
+      },
+      {
+        "disease": "Dimorphic hemmorhoids(piles)",
+        "confidence": 13,
+        "precautions": [
+          "Avoid fatty spicy food",
+          "Consume witch hazel",
+          "Warm bath with epsom salt",
+          "Consume alovera juice"
+        ]
+      },
+      {
+        "disease": "GERD",
+        "confidence": 11.8,
+        "precautions": [
+          "Avoid fatty spicy food",
+          "Avoid lying down after eating",
+          "Maintain healthy weight",
+          "Exercise"
+        ]
+      }
+    ],
+    "createdAt": "2026-07-22T01:24:07.272Z",
+    "id": "96c4uhedd"
+  },
+  {
+    "symptoms": [
+      "yellowing_of_eyes",
+      "pain_behind_the_eyes"
+    ],
+    "symptomCount": 2,
+    "topDisease": "Hepatitis C",
+    "confidence": 23.3,
+    "topMatches": [
+      {
+        "disease": "Hepatitis C",
+        "confidence": 23.3,
+        "precautions": [
+          "Consult nearest hospital",
+          "Vaccination",
+          "Eat healthy",
+          "Medication"
+        ]
+      },
+      {
+        "disease": "Dengue",
+        "confidence": 16,
+        "precautions": [
+          "Drink papaya leaf juice",
+          "Avoid fatty spicy food",
+          "Keep mosquitos away",
+          "Keep hydrated"
+        ]
+      },
+      {
+        "disease": "Chronic cholestasis",
+        "confidence": 6.2,
+        "precautions": [
+          "Cold baths",
+          "Anti itch medicine",
+          "Consult doctor",
+          "Eat healthy"
+        ]
+      }
+    ],
+    "createdAt": "2026-07-22T01:26:42.422Z",
+    "id": "635un2e8v"
+  },
+  {
+    "symptoms": [
+      "stomach_bleeding",
+      "nausea",
+      "weakness_of_one_body_side",
+      "blackheads",
+      "stiff_neck",
+      "pain_in_anal_region"
+    ],
+    "symptomCount": 6,
+    "topDisease": "Hepatitis E",
+    "confidence": 16.1,
+    "topMatches": [
+      {
+        "disease": "Hepatitis E",
+        "confidence": 16.1,
+        "precautions": [
+          "Stop alcohol consumption",
+          "Rest",
+          "Consult doctor",
+          "Medication"
+        ]
+      },
+      {
+        "disease": "Arthritis",
+        "confidence": 14.5,
+        "precautions": [
+          "Exercise",
+          "Use hot and cold therapy",
+          "Try acupuncture",
+          "Massage"
+        ]
+      },
+      {
+        "disease": "Acne",
+        "confidence": 13,
+        "precautions": [
+          "Bath twice",
+          "Avoid fatty spicy food",
+          "Drink plenty of water",
+          "Avoid too many products"
+        ]
+      }
+    ],
+    "createdAt": "2026-07-24T09:54:35.337Z",
+    "id": "cws5glvyw"
+  },
+  {
+    "symptoms": [
+      "fever",
+      "cough"
+    ],
+    "symptomCount": 2,
+    "topDisease": "Bronchial Asthma",
+    "confidence": 18.9,
+    "topMatches": [
+      {
+        "disease": "Bronchial Asthma",
+        "confidence": 18.9,
+        "precautions": [
+          "Switch to loose cloothing",
+          "Take deep breaths",
+          "Get away from trigger",
+          "Seek help"
+        ]
+      },
+      {
+        "disease": "GERD",
+        "confidence": 12.9,
+        "precautions": [
+          "Avoid fatty spicy food",
+          "Avoid lying down after eating",
+          "Maintain healthy weight",
+          "Exercise"
+        ]
+      },
+      {
+        "disease": "Allergy",
+        "confidence": 5.5,
+        "precautions": [
+          "Apply calamine",
+          "Cover area with bandage",
+          "Use ice to compress itching"
+        ]
+      }
+    ],
+    "createdAt": "2026-07-25T01:06:15.299Z",
+    "id": "9yr0wcgsl"
+  }
+]

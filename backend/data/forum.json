@@ -1,0 +1,42 @@
+[
+  {
+    "id": "post-1",
+    "title": "Tips for managing Blood Pressure with South Indian diet?",
+    "authorName": "Karthik R.",
+    "authorRole": "Patient",
+    "category": "Cardiovascular",
+    "createdAt": "2026-07-19T14:20:00.000Z",
+    "likes": 24,
+    "content": "I was recently diagnosed with Stage 1 Hypertension (BP 132/86). What are some effective South Indian dietary swaps to reduce sodium intake without sacrificing taste?",
+    "replies": [
+      {
+        "id": "rep-1",
+        "authorName": "Dr. Priyan",
+        "authorRole": "Verified Specialist",
+        "isVerifiedDoctor": true,
+        "createdAt": "2026-07-19T15:05:00.000Z",
+        "content": "Great question Karthik! Swap polished white rice for Ragi or Kambu (Pearl Millet) dhotis. Reduce pickles and appalam, which carry hidden sodium. Use fresh Moringa (Murungai Keerai) and lemon juice for flavor."
+      }
+    ]
+  },
+  {
+    "id": "post-2",
+    "title": "Understanding HbA1c prediabetes threshold values",
+    "authorName": "Meera S.",
+    "authorRole": "Patient",
+    "category": "Metabolic & Diabetes",
+    "createdAt": "2026-07-18T10:15:00.000Z",
+    "likes": 18,
+    "content": "My fasting blood glucose is 110 mg/dL. Does this mean I am prediabetic? What preventive steps should I prioritize?",
+    "replies": [
+      {
+        "id": "rep-2",
+        "authorName": "Dr. Swaminathan",
+        "authorRole": "Verified Specialist",
+        "isVerifiedDoctor": true,
+        "createdAt": "2026-07-18T11:00:00.000Z",
+        "content": "A fasting blood sugar between 100-125 mg/dL is categorized as Prediabetes. Prioritize 150 minutes/week of moderate cardio walking and limit sugar-sweetened beverages."
+      }
+    ]
+  }
+]

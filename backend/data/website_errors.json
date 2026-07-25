@@ -1,0 +1,77 @@
+[
+  {
+    "id": "err_1",
+    "message": "TypeError: Cannot read properties of undefined (reading 'map')",
+    "stack": "at UserDashboard.jsx:672:34\nat renderWithHooks (react-dom.development.js:15486:18)",
+    "url": "http://localhost:5173/dashboard",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "userEmail": "king00@gmail.com",
+    "timestamp": "2026-07-22T08:12:00.000Z",
+    "resolved": false
+  },
+  {
+    "id": "err_2",
+    "message": "Error: SMTP connection timed out",
+    "stack": "at SMTPConnection._onTimeout (smtp-connection.js:789:22)\nat listOnTimeout (node:internal/timers:573:17)",
+    "url": "http://localhost:5173/login (Forgot Password)",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "userEmail": "Guest User",
+    "timestamp": "2026-07-22T08:35:10.000Z",
+    "resolved": false
+  },
+  {
+    "message": "Uncaught ReferenceError: handleCreateOrder is not defined",
+    "stack": "ReferenceError: handleCreateOrder is not defined\n    at UserDashboard (http://localhost:5173/src/pages/UserDashboard.jsx?t=1784875771813:2116:18)\n    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:12866:12)\n    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:4213:19)\n    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:5569:16)\n    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:6140:20)\n    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:851:66)\n    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8429:92)\n    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8325:37)\n    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8309:6)\n    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:7994:27)",
+    "url": "http://localhost:5173/dashboard",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "userEmail": "king12@gmail.com",
+    "timestamp": "2026-07-24T06:50:53.674Z",
+    "resolved": false,
+    "id": "el3gnzl37",
+    "createdAt": "2026-07-24T06:50:53.675Z"
+  },
+  {
+    "message": "Uncaught Error: useNotification must be used within a NotificationProvider",
+    "stack": "Error: useNotification must be used within a NotificationProvider\n    at useNotification (http://localhost:5175/src/context/NotificationContext.jsx:117:9)\n    at Notifications (http://localhost:5175/src/pages/Notifications.jsx?t=1784900181465:14:146)\n    at Object.react_stack_bottom_frame (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:12866:12)\n    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:4213:19)\n    at updateFunctionComponent (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:5569:16)\n    at beginWork (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:6140:20)\n    at runWithFiberInDEV (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:851:66)\n    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:8429:92)\n    at workLoopSync (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:8325:37)\n    at renderRootSync (http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=6546cfbc:8309:6)",
+    "url": "http://localhost:5175/notifications",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "userEmail": "king12@gmail.com",
+    "timestamp": "2026-07-24T13:39:08.953Z",
+    "resolved": false,
+    "id": "t6c4k0up2",
+    "createdAt": "2026-07-24T13:39:08.954Z"
+  },
+  {
+    "message": "Uncaught ReferenceError: vitalsSummary is not defined",
+    "stack": "ReferenceError: vitalsSummary is not defined\n    at http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:569:26\n    at ReportDashboard (http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:822:8)\n    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:12866:12)\n    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:4213:19)\n    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:5569:16)\n    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:6140:20)\n    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:851:66)\n    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8429:92)\n    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8325:37)\n    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8309:6)",
+    "url": "http://localhost:5173/report/vkhcmxkec",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "userEmail": "king12@gmail.com",
+    "timestamp": "2026-07-25T01:03:43.119Z",
+    "resolved": false,
+    "id": "t46mbm9kk",
+    "createdAt": "2026-07-25T01:03:43.120Z"
+  },
+  {
+    "message": "Uncaught ReferenceError: vitalsSummary is not defined",
+    "stack": "ReferenceError: vitalsSummary is not defined\n    at http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:569:26\n    at ReportDashboard (http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:822:8)\n    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:12866:12)\n    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:4213:19)\n    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:5569:16)\n    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:6140:20)\n    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:851:66)\n    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8429:92)\n    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8325:37)\n    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8309:6)",
+    "url": "http://localhost:5173/report/vkhcmxkec",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "userEmail": "king12@gmail.com",
+    "timestamp": "2026-07-25T01:04:49.053Z",
+    "resolved": false,
+    "id": "6mqndgapp",
+    "createdAt": "2026-07-25T01:04:49.054Z"
+  },
+  {
+    "message": "Uncaught ReferenceError: vitalsSummary is not defined",
+    "stack": "ReferenceError: vitalsSummary is not defined\n    at http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:569:26\n    at ReportDashboard (http://localhost:5173/src/pages/ReportDashboard.jsx?t=1784941422107:822:8)\n    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:12866:12)\n    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:4213:19)\n    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:5569:16)\n    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:6140:20)\n    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:851:66)\n    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8429:92)\n    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8325:37)\n    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=d51dffc6:8309:6)",
+    "url": "http://localhost:5173/report/fnh2e32c3",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "userEmail": "king12@gmail.com",
+    "timestamp": "2026-07-25T01:14:49.196Z",
+    "resolved": false,
+    "id": "19l2qthyf",
+    "createdAt": "2026-07-25T01:14:49.197Z"
+  }
+]

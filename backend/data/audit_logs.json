@@ -7,5 +7,453 @@
     "timestamp": "2026-07-13T06:56:59.793Z",
     "id": "pse41wdx0",
     "createdAt": "2026-07-13T06:56:59.796Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-20T10:04:51.254Z",
+    "id": "zh42my3vl",
+    "createdAt": "2026-07-20T10:04:51.255Z"
+  },
+  {
+    "userId": "s0qsflnnv",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-20T10:11:59.247Z",
+    "id": "ghvkjrhsi",
+    "createdAt": "2026-07-20T10:11:59.248Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-20T11:03:03.692Z",
+    "id": "c710th8x3",
+    "createdAt": "2026-07-20T11:03:03.695Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-20T11:38:03.428Z",
+    "id": "kftem3ax6",
+    "createdAt": "2026-07-20T11:38:03.430Z"
+  },
+  {
+    "userId": "7t54rfig5",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-20T11:43:06.514Z",
+    "id": "ei0fderur",
+    "createdAt": "2026-07-20T11:43:06.517Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T00:18:43.260Z",
+    "id": "h8z6wm7vz",
+    "createdAt": "2026-07-21T00:18:43.262Z"
+  },
+  {
+    "userId": "ccjubux61",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-21T00:44:23.246Z",
+    "id": "fsi3eknuq",
+    "createdAt": "2026-07-21T00:44:23.247Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T01:35:05.419Z",
+    "id": "gqp49ff48",
+    "createdAt": "2026-07-21T01:35:05.422Z"
+  },
+  {
+    "userId": "uw7eyp5d0",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T01:46:56.447Z",
+    "id": "yiew3ug6m",
+    "createdAt": "2026-07-21T01:46:56.449Z"
+  },
+  {
+    "userId": "ninoq7o9o",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T01:47:32.206Z",
+    "id": "915eu5yis",
+    "createdAt": "2026-07-21T01:47:32.208Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T02:24:33.337Z",
+    "id": "38z04pxgr",
+    "createdAt": "2026-07-21T02:24:33.339Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T05:35:23.258Z",
+    "id": "j68jladyt",
+    "createdAt": "2026-07-21T05:35:23.259Z"
+  },
+  {
+    "userId": "kc3tzf0hc",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T05:39:33.242Z",
+    "id": "ohe4p6a4t",
+    "createdAt": "2026-07-21T05:39:33.244Z"
+  },
+  {
+    "userId": "ey8c9o61c",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T05:40:17.623Z",
+    "id": "vrxnpjtfu",
+    "createdAt": "2026-07-21T05:40:17.624Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "TOGGLE_USER_STATUS",
+    "targetId": "bm4fhqpo0",
+    "details": "Changed account status to deactivated",
+    "timestamp": "2026-07-21T05:40:45.579Z",
+    "id": "tfsqxudrt",
+    "createdAt": "2026-07-21T05:40:45.580Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "TOGGLE_USER_STATUS",
+    "targetId": "bm4fhqpo0",
+    "details": "Changed account status to active",
+    "timestamp": "2026-07-21T05:40:47.570Z",
+    "id": "krfh8kzul",
+    "createdAt": "2026-07-21T05:40:47.571Z"
+  },
+  {
+    "userId": "do50h2bdo",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T10:54:13.934Z",
+    "id": "r80k6zzql",
+    "createdAt": "2026-07-21T10:54:13.936Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T11:30:04.243Z",
+    "id": "gsx9k7roy",
+    "createdAt": "2026-07-21T11:30:04.245Z"
+  },
+  {
+    "userId": "blpxqj9fz",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-21T11:47:17.151Z",
+    "id": "5l793zan2",
+    "createdAt": "2026-07-21T11:47:17.153Z"
+  },
+  {
+    "userId": "blpxqj9fz",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-21T11:49:15.225Z",
+    "id": "g2jrxz3fu",
+    "createdAt": "2026-07-21T11:49:15.226Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T01:15:56.213Z",
+    "id": "f9x1ipimn",
+    "createdAt": "2026-07-22T01:15:56.214Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T01:46:56.422Z",
+    "id": "78qbv9vi3",
+    "createdAt": "2026-07-22T01:46:56.423Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T01:47:53.588Z",
+    "id": "9yxw105nd",
+    "createdAt": "2026-07-22T01:47:53.590Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T01:50:04.159Z",
+    "id": "48fgwonzr",
+    "createdAt": "2026-07-22T01:50:04.161Z"
+  },
+  {
+    "userId": "uxba9inak",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-22T01:54:00.997Z",
+    "id": "t47e7bskf",
+    "createdAt": "2026-07-22T01:54:00.998Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T02:11:02.625Z",
+    "id": "cvjt95f5p",
+    "createdAt": "2026-07-22T02:11:02.627Z"
+  },
+  {
+    "userId": "cwlcnj5wt",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-22T02:28:34.691Z",
+    "id": "1v1381tut",
+    "createdAt": "2026-07-22T02:28:34.694Z"
+  },
+  {
+    "userId": "blpxqj9fz",
+    "action": "PASSWORD_RESET",
+    "details": "Password reset via OTP",
+    "timestamp": "2026-07-22T03:14:05.950Z",
+    "id": "el5uxqrng",
+    "createdAt": "2026-07-22T03:14:05.954Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "TOGGLE_USER_STATUS",
+    "targetId": "bm4fhqpo0",
+    "details": "Changed account status to deactivated",
+    "timestamp": "2026-07-22T03:29:28.046Z",
+    "id": "bdtfg4lzw",
+    "createdAt": "2026-07-22T03:29:28.046Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "TOGGLE_USER_STATUS",
+    "targetId": "bm4fhqpo0",
+    "details": "Changed account status to active",
+    "timestamp": "2026-07-22T03:29:28.710Z",
+    "id": "ry1ilj31g",
+    "createdAt": "2026-07-22T03:29:28.711Z"
+  },
+  {
+    "userId": "rcsrxf2k6",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-22T03:35:05.113Z",
+    "id": "d31z98zr1",
+    "createdAt": "2026-07-22T03:35:05.114Z"
+  },
+  {
+    "userId": "dcii55qft",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-22T03:35:23.101Z",
+    "id": "n4av1i7ob",
+    "createdAt": "2026-07-22T03:35:23.101Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-22T03:39:56.162Z",
+    "id": "n9b9ylrmz",
+    "createdAt": "2026-07-22T03:39:56.165Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "ADMIN_CONFIRM_PAYMENT",
+    "targetId": "ORD_1784542039532_MTDWU",
+    "details": "Confirmed payment order ORD_1784542039532_MTDWU of ₹250 for user king",
+    "timestamp": "2026-07-24T06:53:41.057Z",
+    "id": "o2j9emaq0",
+    "createdAt": "2026-07-24T06:53:41.058Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-24T07:03:22.949Z",
+    "id": "ymofzmtbe",
+    "createdAt": "2026-07-24T07:03:22.950Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-24T07:12:01.904Z",
+    "id": "jzs1wbmq9",
+    "createdAt": "2026-07-24T07:12:01.905Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "ADMIN_CONFIRM_PAYMENT",
+    "targetId": "ORD_1784877409071_DK4J4",
+    "details": "Confirmed payment order ORD_1784877409071_DK4J4 of ₹450 for user king",
+    "timestamp": "2026-07-24T07:21:48.892Z",
+    "id": "pfch87xbp",
+    "createdAt": "2026-07-24T07:21:48.893Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "PASSWORD_RESET",
+    "details": "Password reset via OTP",
+    "timestamp": "2026-07-24T09:40:59.366Z",
+    "id": "yuk8wbysi",
+    "createdAt": "2026-07-24T09:40:59.367Z"
+  },
+  {
+    "userId": "cqch7tq39",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-24T09:41:03.275Z",
+    "id": "6nf9cta9c",
+    "createdAt": "2026-07-24T09:41:03.276Z"
+  },
+  {
+    "userId": "f8vall2do",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-24T09:41:16.734Z",
+    "id": "axi1yudjd",
+    "createdAt": "2026-07-24T09:41:16.735Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "GOOGLE_LOGIN",
+    "details": "User logged in via Google OAuth",
+    "timestamp": "2026-07-24T09:43:53.023Z",
+    "id": "mgw9c2164",
+    "createdAt": "2026-07-24T09:43:53.025Z"
+  },
+  {
+    "userId": "3mp79ggh4",
+    "action": "GOOGLE_SIGNUP",
+    "details": "New user registered via Google OAuth",
+    "timestamp": "2026-07-24T09:45:42.138Z",
+    "id": "ceya37x0a",
+    "createdAt": "2026-07-24T09:45:42.139Z"
+  },
+  {
+    "userId": "ztktbprvv",
+    "action": "SIGNUP",
+    "details": "New user registered",
+    "timestamp": "2026-07-24T09:52:02.679Z",
+    "id": "tlov4tbvr",
+    "createdAt": "2026-07-24T09:52:02.680Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-24T09:59:51.451Z",
+    "id": "lfz52gmiz",
+    "createdAt": "2026-07-24T09:59:51.453Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "ADMIN_CONFIRM_PAYMENT",
+    "targetId": "ORD_1784887257934_MV07A",
+    "details": "Confirmed payment order ORD_1784887257934_MV07A of ₹250 for user king",
+    "timestamp": "2026-07-24T10:01:50.058Z",
+    "id": "l6dnnnomo",
+    "createdAt": "2026-07-24T10:01:50.060Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-24T10:54:08.356Z",
+    "id": "ot6d0knim",
+    "createdAt": "2026-07-24T10:54:08.358Z"
+  },
+  {
+    "adminId": "admin-1",
+    "action": "ADMIN_CONFIRM_PAYMENT",
+    "targetId": "ORD_1784890459408_OLI2U",
+    "details": "Confirmed payment order ORD_1784890459408_OLI2U of ₹250 for user king",
+    "timestamp": "2026-07-24T10:54:33.450Z",
+    "id": "qhgotyb0h",
+    "createdAt": "2026-07-24T10:54:33.451Z"
+  },
+  {
+    "userId": "3mp79ggh4",
+    "action": "GOOGLE_LOGIN",
+    "details": "User logged in via Google OAuth",
+    "timestamp": "2026-07-24T10:55:13.117Z",
+    "id": "ngl2w8rww",
+    "createdAt": "2026-07-24T10:55:13.119Z"
+  },
+  {
+    "userId": "3mp79ggh4",
+    "action": "GOOGLE_LOGIN",
+    "details": "User logged in via Google OAuth",
+    "timestamp": "2026-07-24T10:56:09.160Z",
+    "id": "x4ih0j1o7",
+    "createdAt": "2026-07-24T10:56:09.161Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "GOOGLE_LOGIN",
+    "details": "User logged in via Google OAuth",
+    "timestamp": "2026-07-24T13:28:29.424Z",
+    "id": "b3h8kq91f",
+    "createdAt": "2026-07-24T13:28:29.426Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "PASSWORD_RESET",
+    "details": "Password reset via OTP",
+    "timestamp": "2026-07-25T00:27:50.076Z",
+    "id": "vpmwte3b9",
+    "createdAt": "2026-07-25T00:27:50.077Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-25T00:28:01.074Z",
+    "id": "h05lrhboy",
+    "createdAt": "2026-07-25T00:28:01.075Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "PASSWORD_RESET",
+    "details": "Password reset via OTP",
+    "timestamp": "2026-07-25T00:31:05.693Z",
+    "id": "o86jnrhbh",
+    "createdAt": "2026-07-25T00:31:05.694Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-25T00:31:17.042Z",
+    "id": "l22jynog6",
+    "createdAt": "2026-07-25T00:31:17.043Z"
+  },
+  {
+    "userId": "bm4fhqpo0",
+    "action": "LOGIN",
+    "details": "User logged in successfully",
+    "timestamp": "2026-07-25T01:46:54.656Z",
+    "id": "kl49mzf87",
+    "createdAt": "2026-07-25T01:46:54.656Z"
   }
 ]

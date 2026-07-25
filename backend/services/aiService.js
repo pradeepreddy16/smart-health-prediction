@@ -241,6 +241,48 @@ const predictHealthRisks = async (inputData) => {
     primarySpecialist = getSpecialtyForOrgan(worstOrgans[0][0]);
   }
 
+  // Compute Sleep suggestion based on age and risk
+  let suggestedSleep = "7.5 - 8.5 hours per night";
+  if (age >= 60) suggestedSleep = "7.0 - 8.0 hours per night";
+  else if (age <= 18) suggestedSleep = "8.0 - 9.5 hours per night";
+
+  const wellnessCategories = {
+    nutrition: {
+      title: "Nutrition & Diet Guidance",
+      tips: [
+        "Include South Indian whole grains like Ragi, Bajra, and Foxtail Millet to support glycemic control.",
+        "Incorporate fresh Moringa leaves (Murungai Keerai) and Curry Leaves daily for natural antioxidant support.",
+        "Limit sodium consumption to under 2,000 mg/day (1 teaspoon salt) to manage arterial pressure.",
+        "Ensure adequate dietary fiber intake (25-30g daily) through pulses, legumes, and fresh vegetables."
+      ]
+    },
+    mentalWellness: {
+      title: "Mental Wellness & Stress Reduction",
+      tips: [
+        "Practice 10-15 minutes of guided diaphragmatic breathing or meditation twice daily.",
+        "Engage in light-to-moderate physical activity (brisk walking) to boost endorphin levels and reduce cortisol.",
+        "Maintain regular digital detox hours before bedtime to protect neural circadian recovery."
+      ]
+    },
+    sleep: {
+      title: "Sleep & Circadian Rhythm Suggestions",
+      recommendedDuration: suggestedSleep,
+      tips: [
+        `Recommended sleep duration based on age (${age} yrs) and physiological risk: ${suggestedSleep}.`,
+        "Maintain a strict, consistent sleep schedule (in bed by 10:00 PM) to align hormonal regulation.",
+        "Keep bedroom temperature cool and dark, avoiding caffeine or heavy meals 3 hours prior to sleep."
+      ]
+    },
+    preventiveCare: {
+      title: "General Preventive Care & Health Monitoring",
+      tips: [
+        "Hydrate adequately with 2.5 to 3.0 Liters of water daily.",
+        "Schedule bi-monthly blood pressure and fasting blood glucose baseline tracking.",
+        "Schedule an annual comprehensive lipid profile and kidney function checkup with a verified specialist."
+      ]
+    }
+  };
+
   const report = {
     patientDetails: {
       name: inputData.name || "Patient",
@@ -256,6 +298,7 @@ const predictHealthRisks = async (inputData) => {
     assessment,
     organScores,
     organRecs,
+    wellnessCategories,
     overallRisk,
     recommendedSpecialist: primarySpecialist,
     timestamp: new Date().toISOString()
